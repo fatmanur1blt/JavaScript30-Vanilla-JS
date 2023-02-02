@@ -3,4 +3,38 @@ body{
     padding:0;
     background-image:url('./drum.jpg');
     background-size:cover;
+    background-repeat:no-repeat;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:25%;
+}
+.col{
+    margin:16px;
+    padding:1.5rem .5rem;
+    border:7px solid #001845;
+    border-radius:5px;
+    font-size:16px;
+    background-color:#ffae03;
+    opacity:.6;
+    transition:all .07s ease;
+    width:150px;
+    color:#fff;
+    text-shadow:0 1px 0 #343a40;
+    text-align:center;
+}
+kbd{
+    display:block;
+    font-size:3.5rem;
+    background-color:#ffae03;
+    color:#333533;
+    font-family:Impact;
+}
+.sound{
+    font-size:16px;
+    letter-spacing:.1rem;
+    text-transform:capitalize;
+    color:#bb4430;
 }
