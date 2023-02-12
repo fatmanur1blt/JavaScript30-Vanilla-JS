@@ -38,3 +38,8 @@ kbd{
     text-transform:capitalize;
     color:#bb4430;
 }
+.music{
+    transform: scale(1.3);
+    border-color: #6a040f;
+    box-shadow: 0 0 2rem #dc2f02;
+}
