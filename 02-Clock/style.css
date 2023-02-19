@@ -6,7 +6,6 @@
 body{
     background: rgb(103,110,95);
     background: linear-gradient(90deg, rgba(103,110,95,1) 2%, rgba(193,192,167,1) 24%, rgba(163,84,49,1) 50%, rgba(180,181,161,1) 99%);
-
 }
 .container{
     display: flex;
@@ -26,6 +25,56 @@ body{
     height: 110px;
     width: 210px;
 }
-.deneme{
-    background-color: blueviolet;
+.analog{
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 15rem;
+    height: 15rem;
+    background-color: #c1121f;
+    border-radius: 50%;
+}
+.hourEl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: 25% 0;
+    width: 5px;
+    height: 60px;
+    background-color: #463f3a;
+}
+.minEl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: 25% 0;
+    width: 4px;
+    height: 70px;
+    background-color: #463f3a;
+}
+.secEl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: 25% 0;
+    width: 3px;
+    height: 90px;
+    background-color: #463f3a;
+}
+.timeTo{
+    display:inline-flex;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color:white;
 }
