@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS VARIABLES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Update CSS Variables with <span class="hl">JS</span></h3>
+
+    <div class="controls">
+        <span>Spacing:</span>
+        <input type="range" id="spacing" name="size" min="12" max="300" value="16" data-sizing="px">
+        <span>Blur:</span>
+        <input type="range" id="blur" name="blur" min="0" max="24" value="10" data-sizing="px">
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#03045e">
+    </div>
+    <div class="box"></div>
+
+    <script src="App.js"></script>
+</body>
+</html>

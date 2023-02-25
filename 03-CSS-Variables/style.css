@@ -1,0 +1,28 @@
+:root{
+    --color:#03045e;
+    --size:24px;
+    --blur:12px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff758f;
+    background-color:#e63946 ;
+    text-align: center;
+}
+
+.box{
+    overflow: hidden;
+    width: var(--size);
+    height: var(--size);
+    background: var(--color);
+    filter: blur(var(--blur));
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.hl{
+    color: var(--color);
+}
