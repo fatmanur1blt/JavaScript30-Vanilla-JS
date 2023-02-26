@@ -21,3 +21,45 @@ const people = [
       'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
 ];
 
+//Filter
+const sixteen = users.filter(users =>(users.birthday >= 1600 && users.birthday <1700));
+console.log(sixteen);
+
+// Map
+const fullNames = users.map(users => `${users.name} ${users.lastName}`);
+console.log(fullNames);
+
+// Sort
+const ordered = users.sort((x,y) => x.birthday > y.birthday ? 1 : -1);
+console.log(ordered);
+
+const oldest = users.sort(function(x,y){
+    const lastUser = x.passed - x.birthday;
+    const nextUser = y.passed - y.birthday;
+    return lastUser > nextUser ? -1 : 1;
+});
+console.log(oldest);
+
+const alpha = people.sort((lastOne,nextOne) => {
+    const [aLast , aFirst] = lastOne.split(',');
+    const [bLast , bFirst] = nextOne.split(',');
+    return aLast > bLast ? 1: - 1;
+});
+console.log(alpha);
+
+// Reduce
+const fullYears = users.reduce((full,users) => {
+    return full + (users.passed - users.birthday);
+},0);
+console.log(fullYears);
+
+const data = ['car','car','bike','truck','truck','walk','car','car','van','truck','walk','pogostick'];
+
+const transportation = data.reduce(function(obj,item){
+    if(!obj[item]){
+        obj[item] = 0;
+    }
+    obj[item]++;
+    return obj;
+},{});
+console.log(transportation);
