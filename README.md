@@ -14,3 +14,18 @@ Then I used the code event. For the code event, I need the code of the key that 
 
 ## 02-Clock
 There is both an analog clock and a digital clock application in this project. There are two buttons. by pressing these buttons, you can find out the time with an analog or digital clock.
+
+## 03-CSS-Variables
+There are 3 css variables in this project. The names in the input value that we have written in html and the variables that we have defined in the root that we have defined in css should be the same.
+<br/>
+Like This;
+<br/>
+`<input type="range" id="blur" name="blur" min="0" max="24" value="10" data-sizing="px">
+<style>
+:root{
+    --blur:12px;
+}
+</style>`
+<b><em>Image;</em><b/>
+<br/>
+<img src="./variable.png">
