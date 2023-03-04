@@ -11,4 +11,6 @@ Then I used the code event. For the code event, I need the code of the key that 
 <b><em>Image;</em><b/>
 <br/>
 <img src="./01-DrumKit/image.png">
-<br/>
+
+## 02-Clock
+There is both an analog clock and a digital clock application in this project. There are two buttons. by pressing these buttons, you can find out the time with an analog or digital clock.
