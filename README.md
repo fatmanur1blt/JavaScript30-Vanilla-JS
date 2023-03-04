@@ -24,6 +24,16 @@ Like This;
 :root{
     --blur:12px;
 }`
-<b><em>Image;</em><b/>
+<br/>
+<b><em>Image;</em></b>
 <br/>
 <img src="./03-CSS-Variables/variable.png">
+
+## 04-Array-Cardio
+By creating an `array`, we printed the desired value to the console using methods in these arrays.
+<br/>
+* Array Methods :point_right:  [JS Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+<br/>
+
+## 05-Flex Panel Gallery
+In this project, we have provided the elements with the `display:flex;` property and the column property so that they come side by side. Also, with transform: translate, you can access the first child and last child of the div tags and then come to the screen with transition.
