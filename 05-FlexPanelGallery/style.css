@@ -18,7 +18,22 @@ body{
     border: 1px solid #e29578;
     text-align: center;
     font-size: 2rem;
+    transition: font-size 2s flex 1s;
 }
-.deneme{
+.transition{
     font-size: 100px;
+    background-color: #b5838d;
+    transition: font-size 3s , background-color 3.5s cubic-bezier(0.65,0.05,0.36,1);
+}
+.panel > *:first-child{
+    transform: translateY(-1000px);
+}
+.panel.active > *:first-child{
+    transform: translateY(0);
+}
+.panel > *:last-child{
+    transform: translateY(-1000px);
+}
+.panel.active > *:last-child{
+    transform: translateY(0);
 }
