@@ -1,12 +1,14 @@
-// const panelEl = document.querySelector('.panel');
+const panelEl = document.querySelectorAll('.panel');
 
-// panelEl.addEventListener('click',function(){
-//     panelEl.classList.add("deneme");
-//     console.log("sorun ne");
-// });
-
-function deneme(){
-    document.querySelectorAll('.panel').forEach(panel => panel.classList.add('deneme'));
+function transitionActive (){
+    this.classList.add("transition");
+    console.log("working");
 }
 
-document.querySelectorAll('.panel').forEach(panel => panel.addEventListener('click',deneme));
+panelEl.forEach(panel => panel.addEventListener('click',transitionActive));
+
+function active (){
+    this.classList.add('active');
+    console.log("hello");
+}
+panelEl.forEach(panel => panel.addEventListener('transitionend',active));
