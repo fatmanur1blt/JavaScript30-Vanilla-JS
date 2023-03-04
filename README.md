@@ -21,11 +21,9 @@ There are 3 css variables in this project. The names in the input value that we 
 Like This;
 <br/>
 `<input type="range" id="blur" name="blur" min="0" max="24" value="10" data-sizing="px">
-<style>
 :root{
     --blur:12px;
-}
-</style>`
+}`
 <b><em>Image;</em><b/>
 <br/>
-<img src="./variable.png">
+<img src="./03-CSS-Variables/variable.png">
