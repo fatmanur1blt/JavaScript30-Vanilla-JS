@@ -8,7 +8,7 @@ I avoided using `keyCode` event because this event has been deprecated.
 <br/> 
 Then I used the code event. For the code event, I need the code of the key that triggered the event. I chose the numbers 1,2,3..8,9. Numbers of code keys Digit 1...Digit 9. I have included these numbers. When the keys are pressed, the background changes with css and the sound specified with the same key numbers that I typed into the audio and div tag comes out.
 <br/>
-<b><em>Image;</em><b/>
+<b><em>Image;</em></b>
 <br/>
 <img src="./01-DrumKit/image.png">
 
@@ -37,3 +37,6 @@ By creating an `array`, we printed the desired value to the console using method
 
 ## 05-Flex Panel Gallery
 In this project, we have provided the elements with the `display:flex;` property and the column property so that they come side by side. Also, with transform: translate, you can access the first child and last child of the div tags and then come to the screen with transition.
+
+## 06-Type-Ahead
+it is a program that brings the cities we enter in the input with the form element to the user via the API.
