@@ -40,3 +40,10 @@ In this project, we have provided the elements with the `display:flex;` property
 
 ## 06-Type-Ahead
 it is a program that brings the cities we enter in the input with the form element to the user via the API.
+
+## 07-Array-Cardio-2
+In This Project; <br/>
+Array Methods Used: `every` , `some` , `find` , `findIndex`.
+
+## 08-Fun-with-HTML5-Canvas
+In this project, when we can draw better with ` <input type="color">` and `<input type="number">`. that we have added to the screen with the html canvas feature, we can choose the size and color of the drawing color with the `change`event we write in JavaScript.
