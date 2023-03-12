@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun With Html Canvas!</title>
-    <style>
-        #draw{
-            width:700px;
-            height:700px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+    <div id="toolbar">
+        <h2>DRAWING...</h2>
+        <label for="colors">STROKE:</label>
+        <input type="color" name="colors" id="colors">
+        <label for="lineThick">LINE THICK:</label>
+        <input type="number" value="6" name="lineThick" id="lineThick">
+
+        <button id="btn-clear">Clear</button>
+    </div>
+</div>
+
+ <div class="draw">
     <canvas id="draw"></canvas>
+</div>
+
+
     <script src="app.js"></script>
 </body>
 </html>
