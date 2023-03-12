@@ -19,7 +19,7 @@ h2{
 }
 .container{
     display: flex;
-    height: 800px;
+    height: 200px;
 }
 #toolbar * {
     margin-bottom:5px;
