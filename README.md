@@ -47,3 +47,6 @@ Array Methods Used: `every` , `some` , `find` , `findIndex`.
 
 ## 08-Fun-with-HTML5-Canvas
 In this project, when we can draw better with ` <input type="color">` and `<input type="number">`. that we have added to the screen with the html canvas feature, we can choose the size and color of the drawing color with the `change`event we write in JavaScript.
+
+## 09-Dev-Tools-Domination
+Different methods have been processed to print message to <em>console</em> in this project.
