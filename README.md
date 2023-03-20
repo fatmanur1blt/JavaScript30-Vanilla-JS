@@ -50,3 +50,6 @@ In this project, when we can draw better with ` <input type="color">` and `<inpu
 
 ## 09-Dev-Tools-Domination
 Different methods have been processed to print message to <em>console</em> in this project.
+
+## 10-Hold-Shift-And-Check
+First of all, we run the function with the <em>click</em> event. The operation of the content of the function is as follows: When the input is checked with the event (arr) we have sent, the console event and the message are written.
