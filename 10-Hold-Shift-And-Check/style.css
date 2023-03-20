@@ -1,0 +1,30 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    background-color: #ff8fab;
+}
+.inbox{
+    border-radius:10px;
+    border: #000 2px solid;
+    box-shadow: 15px 15px 15px #1a1616;
+    width: 500px;   
+    height: 400px; 
+    padding: 10px;
+}
+.inbox, .item-box , label {
+    background: rgb(240, 219, 192);
+}
+.item-box{
+    padding: 12px;
+    border-bottom: #b5afaf 1px solid;
+}
+.inbox{
+    margin-left: 450px;
+    margin-top: 150px;
+}
+input:checked + label {
+    text-decoration:line-through;
+}
+input[type="checkbox"],label{
+    cursor: pointer;
+}
