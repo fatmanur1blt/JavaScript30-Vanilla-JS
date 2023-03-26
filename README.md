@@ -55,4 +55,7 @@ Different methods have been processed to print message to <em>console</em> in th
 First of all, we run the function with the <em>click</em> event. The operation of the content of the function is as follows: When the input is checked with the event (arr) we have sent, the console event and the message are written.
 
 ## 11-Custom-Video-Player
-What this project does is we put a video with <video> tags where we have determined on the screen and centered it exactly on the screen with css, and the video starts playing when both the play button is pressed and the video is pressed. We did this by giving a click event to the video tag and the toggle in the button class.
+What this project does is we put a video with `<video>` tags where we have determined on the screen and centered it exactly on the screen with css, and the video starts playing when both the play button is pressed and the video is pressed. We did this by giving a `click event` to the video tag and the toggle in the button class.
+
+## 12-Key-Sequence-Detection
+First of all, we created an empty array and when the keys are pressed, we add elements to this array with the <em>splice method</em>. The number of elements in the Array should be as much as the number of strings we entered in <em>myCode</em>.
