@@ -1,25 +1,27 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #7b2cbf;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 .container{
     padding: 10px;
-    width: 750px;
+    width: 600px;
     text-align: justify;
     margin: 100px auto;
     border: 2px solid #2b2525;
 }
 .slide-in{
-    width: 500px;
+    width: 450px;
+    opacity: 0;
+    transition: all 0.5s ease;
 }
 
 .left{
@@ -31,13 +33,13 @@ h2{
     margin-left: 18px;
 }
 .left.slide-in{
-    transform: translate(-30%) scale(.95);
+    transform: translateX(-30%) scale(0.95);
 }
 .right.slide-in{
-    transform: translate(30%) scale(.95);
+    transform: translateX(30%) scale(0.95);
 }
 
-.active{
+.slide-in.active{
     opacity: 1;
-    transform: translate(0) scale(1);
+    transform: translateX(0) scale(1);
 }
