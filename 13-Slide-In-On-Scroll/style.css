@@ -8,4 +8,36 @@ body{
 
 h2{
     font-size: 25px;
+    text-align: center;
+}
+
+.container{
+    padding: 10px;
+    width: 750px;
+    text-align: justify;
+    margin: 100px auto;
+    border: 2px solid #2b2525;
+}
+.slide-in{
+    width: 500px;
+}
+
+.left{
+    float: left;
+    margin-right: 18px;
+}
+.right{
+    float: right;
+    margin-left: 18px;
+}
+.left.slide-in{
+    transform: translate(-30%) scale(.95);
+}
+.right.slide-in{
+    transform: translate(30%) scale(.95);
+}
+
+.active{
+    opacity: 1;
+    transform: translate(0) scale(1);
 }
