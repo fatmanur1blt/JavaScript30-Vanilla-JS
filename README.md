@@ -59,3 +59,6 @@ What this project does is we put a video with `<video>` tags where we have deter
 
 ## 12-Key-Sequence-Detection
 First of all, we created an empty array and when the keys are pressed, we add elements to this array with the <em>splice method</em>. The number of elements in the Array should be as much as the number of strings we entered in <em>myCode</em>.
+
+## 13-Slide-In-On-Scroll
+With the class we gave to the img tag, I reached all the 'img tags' and gave the <b><em>transition</em></b>property. On the js side, I defined the scroll event to the window. When I scroll down with this event, the images come in animated form.
