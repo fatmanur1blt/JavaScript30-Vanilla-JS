@@ -12,11 +12,12 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.85;
 }
 
 .container{
     padding: 1rem;
-    width: 500px;
+    width: 300px;
     background-color: #e5e5e5;
     border: 2px solid #353535;
     box-shadow: 0 0 1px 5px #001d3d;
@@ -25,18 +26,16 @@ body{
 .orders{
     list-style: none;
 }
- .order li{
+ .orders li{
     border-bottom: 1px solid #353535;
     padding: 10px 0;
     font-weight: 4rem;
     display: flex;
  }
- .order input {
-    display: none;
- }
- .order label {
-    flex:1;
+ .orders label {
+    flex:0;
     cursor: pointer;
+    padding: 10px;
  }
  .add-orders{
     margin-top: 15px;
@@ -45,4 +44,7 @@ body{
     padding: 8px;
     outline: 0;
     border: 1.5px solid #231942;
+}
+.orders input + label:before{
+    margin-right: 10px;
 }
