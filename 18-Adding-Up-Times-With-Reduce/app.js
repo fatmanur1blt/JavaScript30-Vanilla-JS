@@ -21,3 +21,8 @@ const seconds = videoNodes
     secondsEls = secondsEls % 60;
 
     console.log(hours, mins, secondsEls);
+
+    document.querySelector('.result').innerHTML=
+    `
+      Total Time : ${hours},${mins},${secondsEls}
+    `;
