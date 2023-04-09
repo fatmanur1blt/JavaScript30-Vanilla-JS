@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #9f86c0;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 12px;
+}
+.box{
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #faedcd;
+    border-radius: 5px;
+    line-height: 50px;
+    width: 600px;
+}
