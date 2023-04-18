@@ -19,7 +19,33 @@ body{
 .nav-item{
     font-size: 1.5rem;
 }
+body.fixed-nav nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav{
+    width: 100%;
+    transition: all 0.5;
+    position: relative;
+}
 h1{
     color: #faedcd;
     font-size: 4rem;
+    font-weight:bold;
 }
+li.nav-hidden{
+    max-width: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+  nav a{
+    text-decoration: none;
+    color: #faedcd;
+    transition: all 0.5s;
+  }
+  .fixed-nav li.nav-hidden {
+    max-width: 600px;
+  }
