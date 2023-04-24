@@ -1,0 +1,48 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #cdb4db;
+}
+.timer{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.controls{
+    display: flex;
+}
+.controls > *{
+    flex: 1;
+}
+.controls input {
+    flex: 1;
+    padding: 30px;
+}
+.controls form {
+    display: flex;
+    flex: 1;
+}
+.timer-button{
+    cursor: pointer;
+    background: #9a8c98;
+    color: #582f0e;
+    font-size: 32px;
+    padding-left: 10px;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.display-end-time{
+    font-size: 36px;
+    color: #582f0e;
+}
