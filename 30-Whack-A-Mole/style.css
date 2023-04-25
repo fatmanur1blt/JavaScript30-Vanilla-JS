@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #b392ac;
+    font-family: 'Amatic SC' cursive;
+    font-size: 1rem;
+}
+h1{
+    text-align: center;
+    font-size: 10rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.score{
+   padding: 0 3rem;
+   line-height: 1;
+   border-radius: 1rem;
+}
+.game{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.hole{
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    
+}
